@@ -1,0 +1,9 @@
+Flask
+tqdm
+torch
+transformers
+sentencepiece
+protobuf
+pickle
+xgboost
+Gunicorn
