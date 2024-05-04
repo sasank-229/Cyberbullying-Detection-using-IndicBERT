@@ -4,6 +4,5 @@ torch
 transformers
 sentencepiece
 protobuf
-pickle
 xgboost
 Gunicorn
