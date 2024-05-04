@@ -63,6 +63,8 @@ def model_extract(input_string):
     X_data, attention_masks_data, y_data = getFeaturesandLabel(text_input, label_input)
     return X_data
 
+match=["సచ్చినోడ","పప్పు నాయుడు","నీచుడు","యెడవా","పనికిరాణి వాడు","దున్నపోతు","పిచ్చి","దరిద్రుడు","దొంగ","దోచేసాడు","సైకో","లపాకి","కొజ్జ","ముండ","ఎదవ","అడుక్కుతిను","దద్దమ్మ","సిగ్గులేదా","ఎర్రిపుకు","సన్నాసి","పోరంబోకు"]
+
 input_string = "అక్కడ ఏమి వుంది అని అంతా ఓవర్ యాక్షన్"
 ans=model_extract(input_string)
 print('Torch.tensor vaiable: ',ans)
